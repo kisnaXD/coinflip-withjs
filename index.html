@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coinflip</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header>
+        <div class="heading">
+            <h1>Flip a Coin</h1>
+        </div>
+    </header>
+    <main>
+        <div class="coins">
+            <div class="head">
+                <img src="assets/heads_coin.png" class="head-img" id="heads">
+                <h1 class="head-heading">Head</h1>
+            </div>
+            <div class="tail">
+                <img src="assets/tails_coin.png" class="head-img" id="tails">
+                <h1 class="head-heading">Tail</h1>
+            </div>
+        </div>
+
+        <div class="scoreboard">
+            <div class="score">
+                <p class="you">0</p>
+                <p>You</p>
+            </div>
+            <div class="score">
+                <p class="comp">0</p>
+                <p>Comp</p>
+            </div>
+        </div>
+
+        <div class="result">
+            <p id="msg">Choose your move</p>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+*{
+    margin: 0px;
+    padding: 0px;
+
+    text-align: center;
+}
+
+.heading {
+    background-color: #061a30;
+    height: 70px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coins {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25vmin;
+}
+
+.head-img {
+    height: 35vmin;
+    width: 35vmin;
+    cursor: pointer;
+}
+
+.head-heading {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.result {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#msg {
+    display: inline;
+    background-color: #061A2F;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+}
+
+.scoreboard {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 2rem;
+}
+
+.you, .comp {
+    font-size: 5rem;
+}
